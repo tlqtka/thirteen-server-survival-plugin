@@ -1,0 +1,11 @@
+name: Thirteen-Server-Survival-Plugin
+version: '1.0-SNAPSHOT'
+main: tlqtka.serverpl.Main
+api-version: 1.19
+authors: [ tlqtka ]
+description: just thirteen server survival plugin
+commands:
+  기본템:
+    description: 기본 아이템을 지급합니다.
+    usage: /기본템
+    executer: tlqtka.serverpl.BasicItemCmd
